@@ -89,4 +89,4 @@ nnoremap <leader>q :q<CR>
 
 let g:user_emmet_mode= 'n' " Solo habilitar los comandos de emmet en modo normal
 
-let g:user_emmet_leader_key=' '
+let g:user_emmet_leader_key= ","
