@@ -37,6 +37,9 @@ Plug 'itchyny/lightline.vim'
 " Comentarios
 Plug 'chrisbra/vim-commentary'
 
+" HTML
+Plug 'mattn/emmet-vim'
+
 call plug#end()
 
 " __________________________ Tema Onedark ______________________
@@ -65,6 +68,8 @@ colorscheme onedark
 
 " ________________________________________________________________
 
+" Remaps generales ________________________________________________
+
 let mapleader= " "
 
 " Division de pantalla
@@ -79,3 +84,9 @@ nnoremap <leader>k :wincmd k<CR>
 nnoremap <leader>cc gc<CR>
 
 nnoremap <leader>q :q<CR>
+
+" Remaps para Emmet ______________________________________________
+
+let g:user_emmet_mode= 'n' " Solo habilitar los comandos de emmet en modo normal
+
+let g:user_emmet_leader_key=' '
